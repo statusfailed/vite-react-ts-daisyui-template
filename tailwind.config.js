@@ -11,9 +11,8 @@ export default {
     require('daisyui'),
   ],
 
+  // set data-theme on <html> tag to change theme.
   daisyui: {
-    themes: ["aqua", "retro"],
-    lightTheme: "retro",
-    darkTheme: "aqua",
+    themes: ["light", "aqua", "retro"],
   }
 }
