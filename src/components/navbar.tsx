@@ -36,9 +36,7 @@ const Navbar = () => {
   return (
     <div className="navbar mt-0 pb-8 relative z-10">
       <div className="flex-1">
-        <a className="text-xl font-bold">
-          <Link to="/">App Name</Link>
-        </a>
+        <Link className="text-xl font-bold" to="/">App Name</Link>
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">
